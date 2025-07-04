@@ -1,0 +1,24 @@
+CatS_1	0.20
+CatS_2	0.20
+CatS_3	0.055
+CatS_4	0.056
+CatS_5	0.2
+CatS_6	0.11
+CatS_7	no ic50
+CatS_8	0.074
+CatS_9	no ic50
+CatS_10	0.23
+CatS_11	0.16
+CatS_12	0.03
+CatS_13	0.058
+CatS_14	no ic50
+CatS_15	0.29
+CatS_16	0.26
+CatS_17	0.064
+CatS_18	0.17
+CatS_19	no ic50
+CatS_20	0.03
+CatS_21	no ic50
+CatS_22	0.12
+CatS_23	0.015
+CatS_24	0.14

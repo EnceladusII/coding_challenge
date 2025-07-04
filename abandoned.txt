@@ -1,0 +1,13 @@
+RMSD = Root Mean Squared Deviation = calcul la moyenne au carré de la diff de conformation de deux structures en calculant la moyenne au carré de la différence de position de chaque atome de deux molécules.
+ATTENTION à la symétrie des molécules
+
+Symmetry Corrected RMSD corrige la symétrie en prenant en compte que les molécules peuvent se tordrent de façon symétriques.
+
+Le RMSD seul ne permet pas d'évaluer à lui seul la justesse d'une comparaison par rapport à un complexe de ref exp:
+Les molécules et macromol (=prots) sont très mobiles, ainsi il peut y avoir plusieurs positionnement différent d'un ligand dans sa poche.
+Les structures exp souvent det par CryoEM ou Cristallographie ne représentent une structure qu'à un instant T dans des condictions qui peuvent ne pas être physiologiques et donc impacter la comformation de la prot et son interaction avec le ligand.\
+
+==> Voir dynamique moléculaire pour évaluer la viabilité des dockings en fonction de leur energie libre?
+
+
+Binding affinity between a protein and a ligand describe the strength of the ligand ligation with a protein. It can be mesure and caracterized by the binding free energy or Kd calculation and determined by the different biochemical interaction (non-bounded interaction, hydrogen bond, Lennard-Jones interactions etc...)In our case, we compare the experimental docking with two docking prediction methods using the calculation of the symmetry corrected root mean squared deviation. But experimental structure like X-ray cristallography are the determination of one structure in one conformation (protein structure are enthropics) and a ligand can have different docking location or conformation in a protein binding site. Moreover crystallographic structures cannot represent the biological structure due to the cristallisation method. Therefore, these metrics don't give any information of the dissociation constant, and Kd is an essential parameter to evaluate a binding affinity. 
